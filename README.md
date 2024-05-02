@@ -5,8 +5,12 @@ This Task integrates machine learning with blockchain technologies, specifically
 
 ## Features
 ### Machine Learning Model Operations
-Model Training and Evaluation: Trains a TensorFlow.js model using provided metadata and image datasets, evaluates its accuracy, and handles the serialization of the trained model.
-Model Modification: Adapts a pre-trained model to new tasks by modifying its output layers to match the number of target classes.
-Model Persistence: Checks for the existence of model files locally before loading; downloads and saves them if not present.
-##Blockchain Integration
+Model Training and Evaluation: Trains a TensorFlow.js model using provided metadata and image datasets
+can be found at ((https://github.com/eviangel/Koiivision/tree/main/dataset)),
+evaluates its accuracy, and handles the serialization of the trained model.
+
+### Model Modification: 
+Adapts a pre-trained model to new tasks by modifying its output layers to match the number of target classes.
+
+### Blockchain Integration
 Utilizes the Koii network to manage tasks related to model training rounds, storing model accuracy in a blockchain ledger, ensuring integrity and traceability of model performance data.
